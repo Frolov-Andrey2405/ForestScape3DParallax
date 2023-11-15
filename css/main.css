@@ -49,5 +49,5 @@ body {
     bottom: 0;
     background-size: cover;
     background-position: center;
-    transform: rotateX(30deg) rotateY(30deg);
+    transform: rotateX(var(--move-y)) rotateY(var(--move-x));
 }
