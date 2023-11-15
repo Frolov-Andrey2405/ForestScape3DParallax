@@ -6,6 +6,7 @@
 
 :root {
     --index: calc(1vw + 1vh);
+    --transition: 1.5s cubic-bezier(.05, .5, 0, 1);
 }
 
 @font-face {
@@ -45,6 +46,8 @@ body {
     min-height: 500px;
     transform-style: preserve-3d;
     transform: rotateX(var(--move-y)) rotateY(var(--move-x));
+    will-change: transform;
+    transition: transform var(--transition);
 }
 
 .layers__item {
