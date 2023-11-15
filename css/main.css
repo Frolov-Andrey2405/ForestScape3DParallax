@@ -18,3 +18,10 @@
     font-family: merriweather-italic-3d;
     src: url(../fonts/merriweather-regular-italic.woff2);
 }
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: kamerik-3d;
+}
+
