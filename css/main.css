@@ -10,20 +10,20 @@
 }
 
 @font-face {
-    font-family: kamerik-3d;
+    font-family: 'kamerik-3d';
     src: url(../fonts/kamerik205-heavy.woff2);
     font-weight: 900;
 }
 
 @font-face {
-    font-family: merriweather-italic-3d;
+    font-family: 'merriweather-italic-3d';
     src: url(../fonts/merriweather-regular-italic.woff2);
 }
 
 body {
     background-color: #000;
     color: #fff;
-    font-family: kamerik-3d;
+    font-family: 'kamerik-3d';
 }
 
 .logo {
@@ -32,7 +32,7 @@ body {
     height: var(--logo-size);
     background-repeat: no-repeat;
     position: absolute;
-    left: calc(51% - calc(var(--logo-size) / 2));
+    left: calc(51% - var(--logo-size) / 2);
     top: calc(var(--index) * 2.8);
     z-index: 1;
 }
@@ -100,14 +100,14 @@ body {
 
 .hero-content__p {
     text-transform: none;
-    font-family: merriweather-italic-3d;
+    font-family: 'merriweather-italic-3d';
     letter-spacing: normal;
     font-size: calc(var(--index) * .73);
     line-height: 3;
 }
 
 .button-start {
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     font-size: calc(var(--index) * .71);
@@ -116,7 +116,7 @@ body {
     background-color: transparent;
     color: #fff;
     border-radius: 10em;
-    border: rgb(255 255 255 / .4) 3px solid;
+    border: 3px solid rgba(255, 255, 255, 0.4);
     outline: none;
     cursor: pointer;
     margin-top: calc(var(--index) * 2.5);
