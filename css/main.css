@@ -42,6 +42,7 @@ body {
 
 .layers__container {
     height: 100vh;
+    min-height: 500px;
     transform-style: preserve-3d;
     transform: rotateX(var(--move-y)) rotateY(var(--move-x));
 }
@@ -78,4 +79,14 @@ body {
 
 .layer-6 {
     transform: translateZ(380px);
+}
+
+.hero-content {
+    font-size: calc(var(--index) * 2.9);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hero-content span {
+    display: block;
 }
