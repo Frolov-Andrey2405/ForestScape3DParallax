@@ -25,3 +25,8 @@ body {
     font-family: kamerik-3d;
 }
 
+.logo {
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+}
